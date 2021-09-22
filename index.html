@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joan Jett</title>
+    <link rel="shortcut icon" href="Imagenes/icono.png" type="image/x-icon" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=RocknRoll+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img heigth="400px" src="Imagenes/logo1.png" alt="logo" />
+      </div>
+      <nav>
+        <ul class="barraDeNavegacion">
+          <li class="navegacion"><a href="segundapagina.html"> Home </a></li>
+          <li class="navegacion"><a href="#section1"> Biography </a></li>
+          <li class="navegacion"><a href="#section2"> Discography </a></li>
+          <li class="navegacion"><a href="#section3"> Music </a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <article>
+        <div class="parallax">
+          <div class="cajaparallax tituloparallax">
+            <h2>I Love Rock 'N' Roll</h2>
+            <span class="parrafoparallax">
+              <a href=""> Go Now </a>
+            </span>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section>
+      <div id="section1" class="¨informacion¨">
+        <p class="text">
+          <span class="¨titulojoan¨"> Joan Jett </span>
+          <br />
+          Joan Jett born Joan Marie Larkin, September 22, 1958. Is an American
+          rock singer, songwriter, composer, musician, record producer, and
+          actress. Jett is best known for her work as the frontwoman of her band
+          Joan Jett & the Blackhearts, and for earlier founding and performing
+          with the Runaways, which recorded and released the hit song "Cherry
+          Bomb" with The Blackhearts, Jett is known for her rendition of the
+          song "I Love Rock 'n Roll" which was number-one on the Billboard Hot
+          100 for seven weeks in 1982. Jett's other notable songs include "Bad
+          Reputation", "Crimson and Clover", "Do You Wanna Touch Me (Oh Yeah)",
+          "Light of Day", "I Hate Myself for Loving You" and "Dirty Deeds".
+          <br />
+          <br />
+          Jett has a mezzo-soprano vocal range. She has three albums that have
+          been certified platinum or gold. She has been described as the Queen
+          of Rock 'n' Roll in 2015. Joan Jett & the Blackhearts were inducted
+          into the Rock and Roll Hall of Fame.
+        </p>
+        <img src="Imagenes/imagen2.jpg" alt="JoanJett" class="img-joan" />
+      </div>
+    </section>
+    <section id="section2" class="contentmusic">
+      <h2>DISCOGRAFY</h2>
+      <div class="container">
+        <div class="card">
+          <img onclick="nombreAlbum ()"src="Imagenes/album1.jpg" alt="Album1"/>
+          <h4> I Love Rock n' Roll </h4>
+          <p>1981</p>
+          <a href="#">Read More </a>
+        </div>
+        <div class="card">
+          <img  onclick="nombreAlbumDos ()" src="Imagenes/album2.jpg" alt="Album2" />
+          <h4>Album</h4>
+          <p>1983</p>
+          <a href="#"> Read More</a>
+        </div>
+        <div onclick="nombreAlbumTres ()" class="card">
+          <img src="Imagenes/album3.jpg" alt="Album3" />
+          <h4>Glorious Results of a Misspent</h4>
+          <p>1984</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card">
+          <img onclick="nombreAlbumCuatro ()" src="Imagenes/album4.jpg" alt="Album4" />
+          <h4>Good Music</h4>
+          <p>1986</p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="card">
+          <img onclick="nombreAlbumCinco ()" src="Imagenes/album5.jpg" alt="Album5" />
+          <h4>Up Your Alley</h4>
+          <p>1988</p>
+          <a href="#"> Read More</a>
+        </div>
+        <div class="card">
+          <img onclick="nombreAlbumSeis ()"src="Imagenes/album6.jpg" alt="Album6" />
+          <h4>The Hit List</h4>
+          <p>1990</p>
+          <a href="#"> Read More </a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <!-- Agregar vídeos-->
+      <div class="videos">
+        <div id="section3" class="imagensection">
+          <img src="Imagenes/logo1.png" alt="logo" />
+        </div>
+        <div class="iframerprincipal">
+          <iframe
+            allow="autoplay; fullscreen; encrypted-media"
+            frameborder="0"
+            allowfullscreen=""
+            title="YouTube video player"
+            width="600px"
+            height="300px"
+            src="https://studiosolsolr-a.akamaihd.net/iframe_proxy_player_letras_endpoint.html?host=https%3A%2F%2Fwww.letras.com&amp;api_player=Iframe&amp;player_vars=%7B%22autoplay%22%3A1%2C%22egm%22%3A0%2C%22iv_load_policy%22%3A3%2C%22showinfo%22%3A0%2C%22rel%22%3A0%2C%22enablejsapi%22%3A1%2C%22wmode%22%3A%22transparent%22%2C%22controls%22%3A0%2C%22id%22%3A%22player__pl_obj%22%2C%22type%22%3A%22Iframe%22%2C%22videoId%22%3A%22xTfHhNg1iII%22%7D&amp;video_id=xTfHhNg1iII"
+            data-id="0"
+          ></iframe>
+          <!--Permite mostrar una página dentro de otra, toma un recurso que me pueda sustentar otra página,
+        se puede modificar ancho y altura  <iframe src="" frameborder="0"></iframe>-->
+        </div>
+        <div class="iframe">
+          <iframe
+            allow="autoplay; fullscreen; encrypted-media"
+            frameborder="0"
+            allowfullscreen=""
+            title="YouTube video player"
+            width="500px"
+            height="300px"
+            src="https://studiosolsolr-a.akamaihd.net/iframe_proxy_player_letras_endpoint.html?host=https%3A%2F%2Fwww.letras.com&amp;api_player=Iframe&amp;player_vars=%7B%22autoplay%22%3A1%2C%22egm%22%3A0%2C%22iv_load_policy%22%3A3%2C%22showinfo%22%3A0%2C%22rel%22%3A0%2C%22enablejsapi%22%3A1%2C%22wmode%22%3A%22transparent%22%2C%22controls%22%3A0%2C%22id%22%3A%22player__pl_obj%22%2C%22type%22%3A%22Iframe%22%2C%22videoId%22%3A%22rhnZ19sbxps%22%7D&amp;video_id=rhnZ19sbxps"
+            data-id="0"
+          ></iframe>
+          <iframe
+            allow="autoplay; fullscreen; encrypted-media"
+            frameborder="0"
+            allowfullscreen=""
+            title="YouTube video player"
+            width="500px"
+            height="300px"
+            src="https://studiosolsolr-a.akamaihd.net/iframe_proxy_player_letras_endpoint.html?host=https%3A%2F%2Fwww.letras.com&amp;api_player=Iframe&amp;player_vars=%7B%22autoplay%22%3A1%2C%22egm%22%3A0%2C%22iv_load_policy%22%3A3%2C%22showinfo%22%3A0%2C%22rel%22%3A0%2C%22enablejsapi%22%3A1%2C%22wmode%22%3A%22transparent%22%2C%22controls%22%3A0%2C%22id%22%3A%22player__pl_obj%22%2C%22type%22%3A%22Iframe%22%2C%22videoId%22%3A%22rhnZ19sbxps%22%7D&amp;video_id=rhnZ19sbxps"
+            data-id="0"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <!--Pie de página-->
+      <div class="final">
+        <p>2021 Darkroom/Interscope Records</p>
+      </div>
+    </footer>
+<script src="JS/Ejercicio2.js"></script>
+  </body>
+</html>
